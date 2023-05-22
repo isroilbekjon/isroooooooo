@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding-top: 22px;
+    padding-bottom: 31px;
+}
+
+.BuhOne {
+    margin: 0;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #005FA3;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+}
+
+.icon {
+    font-size: 16px;
+    color: #005fa3;
+    margin-right: 15px;
+}
+
+.list-item2 {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.услуги {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.Наша {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #005FA3;
+    padding: 19px 18px;
+    border: none;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.positionText {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+
+main {
+    background: #EBEBEB;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text {
+    font-weight: 900;
+    font-size: 24px;
+    color: #BDBDBD;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.cText {
+    font-weight: 900;
+    font-size: 48px;
+    color: #333333;
+    margin-bottom: 100px;
+}
+
+.card-one {
+    background-image: url(./img/div.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 271px 188px 45px 45px;
+    cursor: pointer;
+}
+
+.card-one:hover {
+    background: linear-gradient(0deg, rgba(0, 95, 163, .45), rgba(0, 95, 163, .45)), url(img/div.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-one h3 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.loremtext {
+    width: 445px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.lorem {
+    margin-top: -50px;
+}
+
+.cards {
+    background: #EBEBEB;
+    width: 300px;
+    height: 200px;
+}
+
+.cat {
+    padding-left: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.cats {
+    padding-top: 30px;  
+    padding-left: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.catss {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #005FA3;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 575px) {}
