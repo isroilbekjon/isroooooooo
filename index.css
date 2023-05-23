@@ -149,7 +149,7 @@ main {
 }
 
 .cats {
-    padding-top: 30px;  
+    padding-top: 30px;
     padding-left: 30px;
     font-family: 'Lato';
     font-style: normal;
@@ -172,4 +172,57 @@ main {
     padding-bottom: 30px;
 }
 
+.cards {
+    margin-top: 40px;
+}
+
+#ik {
+    background-color: #EBEBEB;
+    width: 100%;
+}
+
+.tet {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.card-img {
+    padding-top: 50px;
+}
+
+.yt {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    width: 200px;
+    color: #000000;
+    margin-top: 50px;
+
+}
+.card-rey{
+    width: 350px;
+    display: flex;
+    align-items: center;
+
+}
+.li {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4F4F4F;
+
+}
+.ota{
+    background-color: #EBEBEB;
+    padding: 50px 50px;
+    margin-bottom: 50px;
+}
 @media (max-width: 575px) {}
